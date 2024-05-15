@@ -15,6 +15,7 @@
   <header>
     <nav>
       <!--magen del logo-->
+
       <section class="Imagen-logo"><img src="mapa_img_cvcode.png" alt="" width="60px">
         <section>
           <p>Visita sitios Arqueologicos</p>
@@ -46,6 +47,21 @@
 
   <!--Texto-->
   <main>
+
+    <script>
+      let result = confirm("¿Estás seguro de que quieres continuar?");
+
+      if (result == true) {
+        console.log("Dijo que si");
+      } else {
+        console.log("Dijo que no");
+      }
+    </script>
+
+    <section class="title">
+      <h1>VisitArq</h1>
+    </section>
+
     <section class="imagen-principal">
       <img src="cataratas_code.avif" alt="" width="600px">
     </section>
@@ -78,5 +94,15 @@
   </footer>
 
 </body>
+
+<script>
+  const nombre = prompt("Cuál es el nombre: ");
+  const apellido = prompt("Cuál es el apellido: ");
+  const correo = prompt("Cuál es el correo: ");
+  alert("Hola me llamo: " + nombre + "apellido" + apellido);
+  alert("Mi correo es: " + correo);
+  console.log(nombre);
+
+</script>
 
 </html>
